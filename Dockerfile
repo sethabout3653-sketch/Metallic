@@ -6,7 +6,7 @@ COPY . /app/
 
 COPY package*.json /app/
 
-RUN npm install -g pnpm
+RUN npm install -g pnpm@9
 
 RUN pnpm install
 
